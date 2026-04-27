@@ -6,7 +6,7 @@ Nexus is a production-grade automated code review system powered by three specia
 
 The system analyzes any uploaded source file through three independent stages — code quality analysis, security vulnerability detection, and a final approval decision — each handled by a dedicated agent with its own role, goal, and guardrail logic.
 
-Rather than running a single monolithic LLM call, Pulse Nexus distributes the review responsibility across specialized agents, producing structured, reliable, and explainable outputs for each stage.
+Rather than running a single monolithic LLM call, Nexus distributes the review responsibility across specialized agents, producing structured, reliable, and explainable outputs for each stage.
 
 ---
 
@@ -183,7 +183,7 @@ nexus/
 │
 ├── app.py                           
 ├── crew.py                          # Crew assembly and kickoff logic
-├── requirements.txt                 
+├── requirements.txt                  
 ├── .env                             
 └── .gitignore
 ```
